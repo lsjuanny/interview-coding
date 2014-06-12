@@ -1,3 +1,5 @@
+package com.shijuan.inherite;
+
 public class Test{
 	public static void main(String[] args){
 		go(new MyBase());
@@ -7,7 +9,6 @@ public class Test{
 	}
 }
 class Base {
-
 	int i;
 	Base() {
 		add(1);

@@ -1,5 +1,10 @@
 #! /usr/bin/env python
 # -*- coding: iso-8859-15 -*-
+# helper:
+# python odd-even-list.py  34 1 2 4 5
+# the out put will be:
+# ['5', '1', '2', '4', '34']
+
 import sys
 
 var = sys.argv[1:]
