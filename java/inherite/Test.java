@@ -27,8 +27,8 @@ class MyBase extends Base{
 	   add(2);
 	   System.out.println(i + "---mybase");
 	}
-	 public void add(int v){
-		 i+=v*2;
-		 System.out.println(i);
-	 }
+	public void add(int v){
+	 i+=v*2;
+	 System.out.println(i);
+	}
 }

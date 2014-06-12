@@ -4,7 +4,7 @@ class Thing
 {
 public:
 Thing(){cout<<"Thing constructor"<<endl;}
-virtual void what_Am_I( ) {cout << "I am a Thing.\n";}
+void what_Am_I( ) {cout << "I am a Thing.\n";}
 ~Thing(){cout<<"Thing destructor"<<endl;}
 };
 class Animal : public Thing
