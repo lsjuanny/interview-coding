@@ -2,17 +2,18 @@ public class Test
 {
     public static void main(String[] args)
     {
-        Fruit obj=new Apple();
-        System.out.println(obj.color);
-        obj.printColor();
+        Fruit fruit=new Fruit();
+        Fruit apple=new Apple();
+        fruit.printColor();
+        apple.printColor();
     }
 }
 
 class Apple extends Fruit
 {
-	//! int color;
     Apple()
     {
+        System.out.println("Construct apple");
         color=5;
     }
     void printColor()
@@ -26,7 +27,10 @@ class Fruit
     Fruit()
     {
         color=4;
+        System.out.println("Construct fruit");
     }
+
+    // final void printColor() 
     void printColor()
     {
         System.out.println(String.format("I'm Fruit. My color is %s", color));

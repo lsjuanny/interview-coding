@@ -3,7 +3,7 @@ MAIN_CLASS=
 ARGS=
 
 default:
-	cd com.shijuan.$(FOLDER) && javac com.shijuan.$(FOLDER).Test.java && java com.shijuan.$(FOLDER).Test
+	cd $(FOLDER) && javac Test.java && java Test
 
 small:
 	javac src/com/shijuan/algorism/$(MAIN_CLASS).java && cd bin && java com.shijuan.algorism.$(MAIN_CLASS) "$(ARGS)"
